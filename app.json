@@ -25,6 +25,18 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "f5114182-c9fe-4ee1-b41b-e2a3ef55fb88"
+      }
+    },
+    "owner": "quangminh30",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/f5114182-c9fe-4ee1-b41b-e2a3ef55fb88"
     }
   }
 }
