@@ -4,9 +4,12 @@
   "main": "index.js",
   "scripts": {
     "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
-    "web": "expo start --web"
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "web": "expo start --web",
+    "build:android": "eas build --platform android --profile preview",
+    "prebuild": "npx expo prebuild",
+    "build:apk:local": "npx expo run:android --variant release"
   },
   "dependencies": {
     "@react-native-async-storage/async-storage": "^2.2.0",
